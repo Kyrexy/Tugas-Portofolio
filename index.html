@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Selamat datang di portofolio saya</h1>
+            <br>
+            <h1>Saya adalah developer</h1>
+            <br><br>
+            <p>Halo nama saya Louis Vebryanto, seorang mahasiswa jurusan teknik informatika dengan pengalaman coding di Java, Python, C++. Untuk saat sekarang saya mengejar pendidikan di Universitas Tarumanagara</p>
+            <p>Kalo ingin kontak saya untuk sekedar bertanya-tanya ataupun hal lain klik tombol di bawah ini</p>
+            <br>
+            <br>
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images.png" alt="">
+        </div>
+    </section>
+
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo">Portofolio</a>
+        <!-- Navigation Bar-->
+        <nav class="navbar">
+            <!-- Active class untuk nav bar aktif -->
+            <a href="#home" class="active">Home</a>
+            <a href="#edukasi">Edukasi</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- edukasi Section -->
+    <section class="edukasi" id="edukasi">
+        <h2 class="heading">Edukasi</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2025</div>
+                <div class="timeline-content">
+                    <h3>Sekolah MGS</h3>
+                    <p>Saya mengejar pendidikan di sekolah MGS dari SMP hingga SMA</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025-now</div>
+                <div class="timeline-content">
+                    <h3>Universitas Tarumanagara</h3>
+                    <p>Saya sedang mengejar pendidikan di Universitas Tarumanagara dengan jurusan Teknik Informatika</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portofolio" id="portfolio">
+        <div class="portfolio-box">
+            <h2 class="heading">Portofolios</h2>
+            <div class="wrapper">
+                <div class="portfolio-item">
+                    <img src="logos/react.png" alt="">
+                    <h2>Projek Database</h2>
+                    <p>Saya merancang database untuk organisasi BEM FTI, dalam pengelolaan barang barang keseharian lalu pengelolan pemasukan dan pengeluaran</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="logos/Bootstrap.png" alt="">
+                    <h2>Projek Back-End</h2>
+                    <p>Saya membuat projek Back-End bertema Bank Untar dengan sistem penarikan dan setor uang serta penguncian akun akibat login berlebihan dengan password yang salah</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="logos/html.png" alt="">
+                    <h2>Projek Mobile-Programming</h2>
+                    <p>Saya membuat projek Mobile-Programming dengan tema aplikasi Bumble, Saya mengelola tampilannya agar dapat dilihat dengan baik oleh pengguna HP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">Jasa</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Development</h4>
+                    <p>Saya membangun web yang cepat, responsif, dan aman menggunakan html, css dan javascript. Mulai dari landing page interaktif, saya dapat memastikan web anda dapat tampil di semua perangkat secara optimal dan memberikan pengalaman pengguna yang memuaskan</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI/UX Development</h4>
+                    <p>Saya dapat merancang UI yang menawan secara visual, tetapi juga mudah digunakan. Saya akan membuat navigasi lebih mudah bagi pengguna sehingga pengalaman pengguna sangat memuaskan.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Back-End Development</h4>
+                    <p>Saya menyediakan arsitektur server yang kuat, pengelolaan basis data yang aman, dan integrasi API yang efisien untuk sistem digital. Fokus saya adalah memastikan performa aplikasi tetap optimal dan memiliki kecepatan tinggi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Your Email"
+                    />
+                </div>
+                <div class="input-box">
+                    <input 
+                    type="text" 
+                    name="subject" 
+                    id="subject" 
+                    placeholder="Your Subject"
+                    />
+                </div>
+            </div>
+            <div class="input-group">
+                <textarea 
+                name="message" 
+                id="message" 
+                placeholder="Your Message" 
+                cols="30" 
+                rows="10"
+                ></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+        <p class="copyright">Louis Vebryanto - 535250142</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
