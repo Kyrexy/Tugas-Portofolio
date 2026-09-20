@@ -467,7 +467,7 @@ span {
 
 /* Portfolio Section */
 .portfolio {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .portfolio-box {
