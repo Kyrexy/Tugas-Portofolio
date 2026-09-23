@@ -122,7 +122,6 @@ section {
     border-bottom: 3px solid var(--main-color);
 }
 
-/* Ikon hamburger, hanya tampil di layar kecil */
 #menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
@@ -131,7 +130,6 @@ section {
 }
 
 
-/* home */
 .home {
     display: flex;
     align-items: center;
